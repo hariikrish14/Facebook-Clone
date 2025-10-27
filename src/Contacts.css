@@ -1,0 +1,83 @@
+.contacts {
+  padding: 16px;
+  background: #f0f2f5;
+  height: calc(100vh - 56px); /* full height minus navbar */
+  overflow-y: auto;
+  box-sizing: border-box;
+  position: fixed;
+  width: 300px;
+}
+
+.contacts-header {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 12px;
+  color: #65676b;
+}
+
+.contacts-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  cursor: pointer;
+  padding: 6px; /* set base padding so it doesn’t shift on hover */
+  border-radius: 8px;
+}
+
+.contact-item:hover {
+  background: #e4e6eb; /* subtle grey hover background */
+}
+
+.profile-pic {
+  position: relative;
+  width: 36px;
+  height: 36px;
+  margin-right: 10px;
+}
+
+.profile-pic img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.online-dot {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 10px;
+  height: 10px;
+  background: #31a24c;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+.contact-name {
+  font-size: 14px;
+  color: #050505;
+}
+
+.suggestions-section {
+  margin-top: 16px;
+}
+
+.suggestions-section .contacts-header {
+  margin-bottom: 12px;
+}
+
+.suggestions-section .contact-item {
+  margin-bottom: 12px;
+  padding: 6px;
+  border-radius: 8px;
+}
+
+.suggestions-section .contact-item:hover {
+  background: #e4e6eb; /* same grey hover background */
+}

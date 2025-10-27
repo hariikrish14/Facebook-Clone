@@ -1,0 +1,45 @@
+.leftside-main {
+  width: 250px;
+  padding: 16px;
+  background: #f0f2f5;
+  box-sizing: border-box;
+  height: calc(100vh - 56px);
+  position: fixed;
+  top: 56px;
+  overflow-y: auto;
+  border-right: 1px solid #ddd;
+}
+
+
+.leftside-content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.leftside-items {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 8px;
+  transition: background 0.2s ease;
+}
+
+.leftside-items:hover {
+  background: #e4e6eb;
+}
+
+.leftside-items img {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+}
+
+.leftside-items p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+  color: #050505;
+}
